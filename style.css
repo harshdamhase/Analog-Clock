@@ -47,5 +47,19 @@ body{
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: honeydew;
+    background-color: #fff;
+}
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hand i{
+    position: absolute;
+    background-color: var(--clr);
+    width: 4px;
+    height: 70px;
+    border-radius: 8px;
+
 }
